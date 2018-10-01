@@ -13,7 +13,7 @@ public class IntroToRandom {
 		//3. Now make r random. 
 		//   Create an object of the Random class
 		//	 use .nextInt() to get a random number
-		
+		 nextInt(51)+25;
 
 		//4. Limit the random number between 0 and 100
 
@@ -22,7 +22,9 @@ public class IntroToRandom {
 		//6. Challenge: Limit the random number between -222 and 88
 
 		//1. Print out the value of r
-		
+		 Random randy=new Random();
+		 int num=randy.nextInt(101);
+		System.out.println(r);
 		//2. Run the program.  What number appears in the console?
 		//   Run it again. Is the number the same?
 	}
